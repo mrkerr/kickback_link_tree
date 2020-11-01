@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/mrkerr/kickback_link_tree/static/css/main.2186c601.chunk.css",
-    "main.js": "/mrkerr/kickback_link_tree/static/js/main.40b08cf2.chunk.js",
-    "main.js.map": "/mrkerr/kickback_link_tree/static/js/main.40b08cf2.chunk.js.map",
-    "runtime-main.js": "/mrkerr/kickback_link_tree/static/js/runtime-main.dd25b4f6.js",
-    "runtime-main.js.map": "/mrkerr/kickback_link_tree/static/js/runtime-main.dd25b4f6.js.map",
-    "static/js/2.59460752.chunk.js": "/mrkerr/kickback_link_tree/static/js/2.59460752.chunk.js",
-    "static/js/2.59460752.chunk.js.map": "/mrkerr/kickback_link_tree/static/js/2.59460752.chunk.js.map",
-    "static/js/3.52ff5181.chunk.js": "/mrkerr/kickback_link_tree/static/js/3.52ff5181.chunk.js",
-    "static/js/3.52ff5181.chunk.js.map": "/mrkerr/kickback_link_tree/static/js/3.52ff5181.chunk.js.map",
-    "index.html": "/mrkerr/kickback_link_tree/index.html",
-    "static/css/main.2186c601.chunk.css.map": "/mrkerr/kickback_link_tree/static/css/main.2186c601.chunk.css.map",
-    "static/js/2.59460752.chunk.js.LICENSE.txt": "/mrkerr/kickback_link_tree/static/js/2.59460752.chunk.js.LICENSE.txt",
-    "static/media/logo.103b5fa1.svg": "/mrkerr/kickback_link_tree/static/media/logo.103b5fa1.svg"
+    "main.css": "/kickback_link_tree/static/css/main.2186c601.chunk.css",
+    "main.js": "/kickback_link_tree/static/js/main.40b08cf2.chunk.js",
+    "main.js.map": "/kickback_link_tree/static/js/main.40b08cf2.chunk.js.map",
+    "runtime-main.js": "/kickback_link_tree/static/js/runtime-main.b4d4cfa6.js",
+    "runtime-main.js.map": "/kickback_link_tree/static/js/runtime-main.b4d4cfa6.js.map",
+    "static/js/2.7c0f6860.chunk.js": "/kickback_link_tree/static/js/2.7c0f6860.chunk.js",
+    "static/js/2.7c0f6860.chunk.js.map": "/kickback_link_tree/static/js/2.7c0f6860.chunk.js.map",
+    "static/js/3.52ff5181.chunk.js": "/kickback_link_tree/static/js/3.52ff5181.chunk.js",
+    "static/js/3.52ff5181.chunk.js.map": "/kickback_link_tree/static/js/3.52ff5181.chunk.js.map",
+    "index.html": "/kickback_link_tree/index.html",
+    "static/css/main.2186c601.chunk.css.map": "/kickback_link_tree/static/css/main.2186c601.chunk.css.map",
+    "static/js/2.7c0f6860.chunk.js.LICENSE.txt": "/kickback_link_tree/static/js/2.7c0f6860.chunk.js.LICENSE.txt",
+    "static/media/logo.103b5fa1.svg": "/kickback_link_tree/static/media/logo.103b5fa1.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.dd25b4f6.js",
-    "static/js/2.59460752.chunk.js",
+    "static/js/runtime-main.b4d4cfa6.js",
+    "static/js/2.7c0f6860.chunk.js",
     "static/css/main.2186c601.chunk.css",
     "static/js/main.40b08cf2.chunk.js"
   ]
