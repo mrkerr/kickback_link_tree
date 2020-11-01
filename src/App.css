@@ -1,38 +1,109 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@1,100&display=swap');
+
+body{
+  background-color: black;
+}
+
+.kickback{
+  width: 100%;
+  color: #FAEBD7;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.title{
+  padding-top: 40vh;
+  font-size: 5vh;
+  font-family: 'IBM Plex Serif', serif;
+  text-decoration: underline;
+  padding-bottom: 40vh;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.scroll-button{
+  font-size: 3vh;
+}
+
+.scroll-button:hover{
+  cursor: pointer;
+}
+
+.new-video-title{
+  font-size: 3vh;
+  font-family: 'IBM Plex Serif', serif;
+  padding-bottom: 20px;
+}
+
+.new-video{
+  padding-top: 45vh;
+  padding-bottom: 75px;
+}
+
+.youtube-player {
+  width:  90vw;
+  height: 50.625vw;
+  line-height: 0;
+}
+
+.new-songs{
+  padding-bottom: 10vh;
+}
+
+.soundcloud{
+  display: inline-block;
+  padding: 5vw;
+  width:80vw;
+}
+
+.song-title{
+  padding: 2vw;
+  font-size: 3vh;
+  font-family: 'IBM Plex Serif', serif;
+}
+
+.clothing{
+  font-size: 4vh;
+  margin-bottom: 15vh;
+  background-color: #FAEBD7;
+  font-family: 'IBM Plex Serif', serif;
+  height: 6vh;
+  padding-top: 1vh;
+  margin-left: 15vw;
+  margin-right: 15vw;
+}
+
+.socials{
+  padding-bottom: 20vh;
+  font-size: 3vh;
+
+}
+
+.insta{
+  padding: 1vh;
+  margin-bottom: 3vh;
+}
+
+@media only screen and (min-width: 601px) {
+  .youtube-player{
+    width: 45vw;
+    height: 25.3125vw;
+    margin-left: 2vw;
+    margin-right: 2vw;
+  }
+
+  .soundcloud{
+    display: inline-block;
+    padding: 5vw;
+    width:35vw;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.insta > a:hover, .insta > a:visited, .insta > a:link, .insta > a:active
+{
+  text-decoration: underline;
+  color: #FAEBD7;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.clothing > a:hover, .clothing > a:visited, .clothing > a:link, .clothing > a:active
+{
+  text-decoration: underline;
+  color: black;
 }
