@@ -30,8 +30,10 @@ Landing
   font-size: 4vh;
 }
 .title{
-  padding-top: 40vh;
+  margin-top: 30vh;
   padding-bottom: 30vh;
+  position: sticky;
+  top: 0;
 }
 .scroll-button{
   font-family: serif;
