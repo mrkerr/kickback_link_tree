@@ -1,0 +1,124 @@
+#kick_id{
+  -webkit-animation: fill_anim 0.5s ease forwards 3.3s;
+          animation: fill_anim 0.5s ease forwards 3.3s;
+}
+
+.kickback path:nth-child(1){
+  stroke-dasharray: 666;
+  stroke-dashoffset: 666;
+  -webkit-animation: line-anim 2s ease forwards;
+          animation: line-anim 2s ease forwards;
+}
+
+.kickback path:nth-child(2){
+  stroke-dasharray: 303;
+  stroke-dashoffset: 303;
+  -webkit-animation: line-anim 2s ease forwards 0.3s;
+          animation: line-anim 2s ease forwards 0.3s;
+}
+
+.kickback path:nth-child(3){
+  stroke-dasharray: 472;
+  stroke-dashoffset: 472;
+  -webkit-animation: line-anim 2s ease forwards 0.6s;
+          animation: line-anim 2s ease forwards 0.6s;
+}
+
+.kickback path:nth-child(4){
+  stroke-dasharray: 666;
+  stroke-dashoffset: 666;
+  -webkit-animation: line-anim 2s ease forwards 0.9s;
+          animation: line-anim 2s ease forwards 0.9s;
+}
+
+.kickback path:nth-child(5){
+  stroke-dasharray: 652;
+  stroke-dashoffset: 652;
+  -webkit-animation: line-anim 2s ease forwards 1.2s;
+          animation: line-anim 2s ease forwards 1.2s;
+
+}
+
+.kickback path:nth-child(6){
+  stroke-dasharray: 563;
+  stroke-dashoffset: 563;
+  -webkit-animation: line-anim 2s ease forwards 1.5s;
+          animation: line-anim 2s ease forwards 1.5s;
+}
+
+.kickback path:nth-child(7){
+  stroke-dasharray: 472;
+  stroke-dashoffset: 472;
+  -webkit-animation: line-anim 2s ease forwards 1.8s;
+          animation: line-anim 2s ease forwards 1.8s;
+}
+
+.kickback path:nth-child(8){
+  stroke-dasharray: 666;
+  stroke-dashoffset: 666;
+  -webkit-animation: line-anim 2s ease forwards 2.1s;
+          animation: line-anim 2s ease forwards 2.1s;
+}
+
+.underline{
+  height: 5px;
+  width:auto;
+  margin-left: 2vw;
+  margin-right: 2vw;
+  -webkit-animation: underline 1.5s ease forwards 3.1s ;
+          animation: underline 1.5s ease forwards 3.1s ;
+}
+
+@-webkit-keyframes line-anim{
+  to{
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes line-anim{
+  to{
+    stroke-dashoffset: 0;
+  }
+}
+
+@-webkit-keyframes fill_anim{
+  from{
+    fill: transparent;
+  }
+
+  to{
+    fill: white;
+  }
+}
+
+@keyframes fill_anim{
+  from{
+    fill: transparent;
+  }
+
+  to{
+    fill: white;
+  }
+}
+
+
+@-webkit-keyframes underline{
+  from{
+    background-color: rgb(4, 4, 12);
+  }
+
+  to{
+    background-color: rgb(255, 255, 255);
+  }
+}
+
+
+@keyframes underline{
+  from{
+    background-color: rgb(4, 4, 12);
+  }
+
+  to{
+    background-color: rgb(255, 255, 255);
+  }
+}
